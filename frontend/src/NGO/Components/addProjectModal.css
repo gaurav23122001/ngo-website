@@ -1,0 +1,57 @@
+body{
+
+    margin-top: 15px;
+  
+  }
+  
+  .button {
+  
+      background-color: #007bff; /* Set the background color for the buttons */
+  
+      color: #fff; /* Set the text color for the buttons */
+  
+      transition: background-color 0.3s ease; /* Add transition for smooth hover effect */
+  
+    }
+  
+   
+  
+    .button:hover {
+  
+      background-color: #0056b3; /* Set the background color for the buttons on hover */
+  
+    }
+  
+    .uploading{
+  
+      display: flex;
+  
+      justify-content: center;
+  
+    }
+  
+    .uploading img{
+  
+      width: 140px;
+  
+      height: 140px;
+  
+      margin-top: 5px;
+  
+      margin-bottom: 14px;
+  
+      border-radius: 100%;
+  
+    }
+  
+    .sub-btn{
+  
+      margin-top: 1.5%;
+  
+      width: 30%;
+  
+      font-size: 130%;
+  
+      border-radius: 7px;
+  
+    }

@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+}
+
+main {
+    margin: 16px;
+}
+
+.navbar {
+    padding-left: 10px;
+    position: fixed;
+    width: 100%;
+    padding-top: 25px;
+    padding-right: 65px;
+    margin-top: -15px;
+    display: flex;
+    align-items: center;
+    background: rgb(250, 250, 250);
+    color: #2F4F4F;
+    font-family: Helvetica;
+    font-weight: 300;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar__title {
+    margin-right: auto;
+    font-size: 150%;
+    padding: 12px 16px;
+}
+
+.navbar__item {
+    padding: 5px 35px;
+    font-weight: 600;
+    cursor: pointer;
+    vertical-align: middle;
+    border-radius: 6px;
+}

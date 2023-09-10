@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.container {
+    max-width: 968px;
+    margin: 40px auto;
+}
+
+.container {
+    padding: 2rem 0rem;
+}
+
+.heading {
+    margin: 20px 0;
+}
+
+td {
+    padding: 5px;
+}
+.hobby {
+    vertical-align: middle;
+    display: inline-block;
+    background-color: #808080;
+    color: white;
+    border-radius: 3px;
+    margin: 0 2px;
+    padding: 0 5px;
+}
+
+svg {
+    margin: auto;
+}
+
+td.td-option {
+    vertical-align: middle;
+    /* border-right: 3px rgb(162, 2, 2);
+    border-left: 3px rgb(255, 103, 103);
+    border-top: 3px rgb(255, 64, 64); */
+}
+
+td.td-option.trash {
+    /* display: block; */
+    color: white;
+    background-color: rgb(179, 66, 66);
+}
+td.td-option.eye {
+    /* display: block; */
+    color: white;
+    background-color: rgb(71, 143, 71);
+}
+td.td-option.tick {
+    /* display: block; */
+    color: white;
+    background-color: rgb(77, 77, 207);
+}
+
+.options {
+    margin-right: 7px;
+}
+.options:disabled {
+    opacity: 0.35;
+}
+
+.actions {
+    display: flex;
+    flex-direction: row;
+}
+
+.actions-cell {
+    width: 100px;
+}
+
+h2 {
+    font-size: larger;
+    font-weight: 500;
+}
+
+table { 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
